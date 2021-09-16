@@ -16,6 +16,7 @@ dependencies:
     git:
       url: https://github.com/sarbagyastha/fast_barcode_scanner.git
       path: fast_barcode_scanner_platform_interface
+      ref: master
 
 dev_dependencies:
   flutter_test:
