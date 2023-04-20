@@ -2,8 +2,6 @@ package com.jhoogstraat.fast_barcode_scanner.types
 
 import io.flutter.plugin.common.MethodChannel.Result
 import java.io.IOException
-import java.util.*
-import kotlin.collections.HashMap
 
 sealed class ScannerError : Throwable() {
     class NotInitialized : ScannerError()
